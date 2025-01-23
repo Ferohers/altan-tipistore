@@ -5,7 +5,7 @@ services:
     image: zyclonite/zerotier
     restart: on-failure
     volumes:
-      - '/var/lib/zerotier-one:/var/lib/zerotier-one'
+      - /var/lib/zerotier-one:/var/lib/zerotier-one
     command: "${NETWORK_ID}"
     cap_add:
       - NET_ADMIN
