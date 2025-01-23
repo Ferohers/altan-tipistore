@@ -2,7 +2,7 @@ version: "3.7"
 services:
   zerotier:
     container_name: zerotier
-    image: zyclonite/zerotier
+    image: zerotier/zerotier
     restart: on-failure
     volumes:
       - /var/lib/zerotier-one:/var/lib/zerotier-one
