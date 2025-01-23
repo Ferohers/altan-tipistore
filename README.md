@@ -1,4 +1,4 @@
-# Tipi App Store ⛺️
+# Altan-TipiStore for fixed apps ⛺️
 
 This is the official repository for the Tipi App Store. It contains all the apps that are available for download on [Tipi](https://github.com/runtipi/runtipi).
 
