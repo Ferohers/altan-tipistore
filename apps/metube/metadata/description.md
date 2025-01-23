@@ -1,10 +1,6 @@
-# MeTube
+# Altan-Store MeTube
 
-Web GUI for youtube-dl (using the [yt-dlp](https://github.com/yt-dlp/yt-dlp) fork) with playlist support. Allows you to download videos from YouTube and [dozens of other sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md).
-
-![screenshot1](https://raw.githubusercontent.com/alexta69/metube/master/screenshot.gif)
-
-## Folder Info
+This app will not function long time if you do not set your cookies in place. The new docker compose file (god knows I worked so hard for dynamic compose file) works as intended.
 
 | Root Folder                        | Container Folder |
 | ---------------------------------- | ---------------- |
