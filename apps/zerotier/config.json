@@ -13,6 +13,17 @@
   "author": "© ZeroTier Inc.",
   "source": "https://github.com/zerotier/ZeroTierOne",
   "website": "https://www.zerotier.com",
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Network ID",
+      "hint": "Create one at https://my.zerotier.com/",
+      "max": 16,
+      "min": 16,
+      "required": true,
+      "env_variable": "NETWORK_ID"
+    }
+  ],
   "supported_architectures": ["arm64", "amd64"],
   "created_at": 1691943801422,
   "updated_at": 1730917452000
