@@ -4,13 +4,14 @@ services:
     container_name: zerotier
     image: zyclonite/zerotier
     restart: on-failure
+    volumes:
+      - '/var/lib/zerotier-one:/var/lib/zerotier-one'
+    command: "${NETWORK_ID}"
     cap_add:
       - NET_ADMIN
       - SYS_ADMIN
     devices:
       - /dev/net/tun
-     volumes:
-      - '/var/lib/zerotier-one:/var/lib/zerotier-one'
     network_mode: host
     labels:
       runtipi.managed: true
