@@ -6,7 +6,7 @@
 1. Zerotier
 2. Metube
 
-Not fixed but mantained apps
+Not fixed but going to be tweaked apps
 1. Qbittorrent
 2. Transmission
 3. Odoo (experimental)
