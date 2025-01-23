@@ -1,4 +1,4 @@
-## Securely Connect Any Device, Anywhere.
+## Altan-Tipi Store Zerotier
 
 ZeroTier combines the capabilities of VPN and SD-WAN, simplifying network management.
 Connect team members from anywhere in the world on any device. ZeroTier creates secure networks between on-premise, cloud, desktop, and mobile devices.
