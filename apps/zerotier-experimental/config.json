@@ -4,7 +4,7 @@
   "available": true,
   "no_gui": true,
   "port": 9993,
-  "id": "zerotier",
+  "id": "zerotier-experimental",
   "tipi_version": 8,
   "version": "1.14.2",
   "categories": ["network", "security"],
