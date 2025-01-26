@@ -3,7 +3,7 @@ services:
   zerotier:
     container_name: zerotier
     image: zyclonite/zerotier
-    restart: on-failure
+    restart: always
     volumes:
       - /var/lib/zerotier-one:/var/lib/zerotier-one
     cap_add:
