@@ -11,8 +11,8 @@
   "description": "Docker container of Samba⁠, an implementation of the Windows SMB networking protocol.",
   "short_desc": "Allows you to share files on network.",
   "author": "Open Source",
-  "source": "https://hub.docker.com/r/zyclonite/zerotier",
-  "website": "https://www.zerotier.com",
+  "source": "https://hub.docker.com/r/dockurr/samba",
+  "website": "https://www.samba.org",
   "supported_architectures": ["amd64"],
   "created_at": 1691943801422,
   "updated_at": 1730917452000
