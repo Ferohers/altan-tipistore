@@ -12,6 +12,7 @@ services:
       - 445:445
     volumes:
       - /home/altan/runtipi/media:/storage
-      - /home/altan/runtipi/media/cookies/users.conf:/etc/samba/users.conf
+      - /home/altan/runtipi/user-config/smb.conf:/etc/samba/smb.conf
+
     labels:
       runtipi.managed: true
