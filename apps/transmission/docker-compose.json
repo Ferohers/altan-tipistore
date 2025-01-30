@@ -27,7 +27,7 @@
           "containerPath": "/config"
         },
         {
-          "hostPath": "${ROOT_FOLDER_HOST}/media/torrents",
+          "hostPath": "${ROOT_FOLDER_HOST}/media/data/",
           "containerPath": "/media/torrents"
         }
       ]
