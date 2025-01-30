@@ -7,7 +7,7 @@ services:
       NAME: "Shares"
       USER: "altan"
       PASS: "altan"
-      RW: "false"
+      RW: "true"
     ports:
       - 445:445
     volumes:
