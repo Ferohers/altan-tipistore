@@ -3,11 +3,11 @@
 
 ## Fixed apps
 
-1. Zerotier (very heavily modified)
-2. Metube
+1. Zerotier, reliable docker image used, have a volume!
+2. Metube, updated and cookie support added
 3. Samba (Fresh out of oven was not available before)
+4. Transmission, god damn many different folders all around. everything must be under data folder! 
 
 Not fixed but going to be tweaked apps
 1. Qbittorrent
-2. Transmission
-3. Odoo (experimental)
+2. Odoo (experimental)
