@@ -11,7 +11,7 @@ services:
     ports:
       - 445:445
     volumes:
-      - /home/altan/runtipi/media:/storage
+      - /home/altan/runtipi/media/data:/storage
 
     labels:
       runtipi.managed: true
