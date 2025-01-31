@@ -11,7 +11,7 @@ x-environment: &environment
     NEXTAUTH_URL:
 
     # PostgreSQL DB for Formbricks to connect to
-    DATABASE_URL: "postgresql://postgres:postgres@postgres:5432/formbricks?schema=public"
+    DATABASE_URL: "postgresql://postgres:postgres22@postgres:5432/formbricks?schema=public"
 
     # NextJS Auth
     # @see: https://next-auth.js.org/configuration/options#nextauth_secret
@@ -177,7 +177,7 @@ services:
     environment:
       # Postgres DB Super User Password
       # Replace the below with your own secure password & Make sure the password matches the password field in DATABASE_URL above
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_PASSWORD=postgres22
 
   formbricks:
     restart: always
