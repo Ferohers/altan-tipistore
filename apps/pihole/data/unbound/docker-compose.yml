@@ -182,6 +182,7 @@ services:
   formbricks:
     restart: always
     image: ghcr.io/formbricks/formbricks:v2.7.2
+   # image: ghcr.io/formbricks/formbricks:latest
     depends_on:
       - postgres
     ports:
