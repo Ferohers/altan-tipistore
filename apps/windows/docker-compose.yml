@@ -20,6 +20,8 @@ services:
       - VERSION=${WINDOWS_VERSION}
     volumes:
       - /home/altan/runtipi/media/data/windows:/storage
+    volumes:
+      - /home/altan/runtipi/media/data:/data
     networks:
       - tipi_main_network
     sysctls:
