@@ -7,7 +7,7 @@
   "port": 5000,
   "id": "dsm",
   "tipi_version": 8,
-  "version": "7.2",
+  "version": "7.2.1",
   "categories": ["network"],
   "description": "DiskStation Manager (DSM) is the unified operating system that powers every Synology NAS and makes managing and protecting your data intuitive.",
   "short_desc": "Virtual DSM in a Docker container.",
