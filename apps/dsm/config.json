@@ -1,0 +1,19 @@
+{
+  "$schema": "../app-info-schema.json",
+  "name": "DSM",
+  "available": true,
+  "no_gui": true,
+  "port": 5000,
+  "id": "DSM",
+  "tipi_version": 8,
+  "version": "7.2",
+  "categories": ["network"],
+  "description": "Virtual DSM in a Docker container..",
+  "short_desc": "You will love it.",
+  "author": "© virtual-dsm",
+  "source": "https://github.com/vdsm/virtual-dsm",
+  "website": "https://github.com/vdsm/virtual-dsm",
+  "supported_architectures": ["amd64"],
+  "created_at": 1691943801422,
+  "updated_at": 1730917452000
+}
