@@ -12,14 +12,13 @@ services:
       - /dev/kvm
       - /dev/net/tun
       - /dev/dri
+      - /dev/sdb1:/dev/sdb1
     cap_add:
       - NET_ADMIN
     ports:
       - 5000:5000
     volumes:
       - /var/dsm:/storage
-    devices:
-      - /dev/sdb1:/dev/sdb1
     restart: always
     stop_grace_period: 2m
     
