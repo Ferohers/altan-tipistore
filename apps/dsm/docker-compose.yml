@@ -12,7 +12,7 @@ services:
       - /dev/kvm
       - /dev/net/tun
       - /dev/dri
-      - /dev/sdb1:/dev/sdb1
+      - /dev/disk/by-uuid/9d70b759-074d-4c2b-a8ce-19cbbe9e5de3:/disk2
     cap_add:
       - NET_ADMIN
     ports:
