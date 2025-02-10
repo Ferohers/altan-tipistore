@@ -20,7 +20,9 @@ services:
       - /var/dsm:/storage
     restart: always
     stop_grace_period: 2m
-
+    
+    networks:
+      - tipi_main_network
 
     labels:
       # Main
