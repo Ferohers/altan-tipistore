@@ -39,7 +39,3 @@ services:
       traefik.http.routers.dsm.entrypoints: websecure
       traefik.http.routers.dsm.service: dsm
       traefik.http.routers.dsm.tls.certresolver: myresolver
-      # Local domain
-      traefik.http.routers.dsm-local-insecure.rule: Host(`dsm.${LOCAL_DOMAIN}`)
-      traefik.http.routers.dsm-local-insecure.entrypoints: web
-      traefik.http.routers.dsm-local-insecure.service: dsm
