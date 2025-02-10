@@ -1,3 +1,4 @@
+
 services:
   dsm:
     container_name: dsm
@@ -19,3 +20,24 @@ services:
       - /var/dsm:/storage
     restart: always
     stop_grace_period: 2m
+
+
+    labels:
+      # Main
+      traefik.enable: true
+      traefik.http.middlewares.dsm-web-redirect.redirectscheme.scheme: https
+      traefik.http.services.dsm.loadbalancer.server.port: 5000
+      # Web
+      traefik.http.routers.dsm-insecure.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.dsm-insecure.entrypoints: web
+      traefik.http.routers.dsm-insecure.service: dsm
+      traefik.http.routers.dsm-insecure.middlewares: dsm-web-redirect
+      # Websecure
+      traefik.http.routers.dsm.rule: Host(`${APP_DOMAIN}`)
+      traefik.http.routers.dsm.entrypoints: websecure
+      traefik.http.routers.dsm.service: dsm
+      traefik.http.routers.dsm.tls.certresolver: myresolver
+      # Local domain
+      traefik.http.routers.dsm-local-insecure.rule: Host(`dsm.${LOCAL_DOMAIN}`)
+      traefik.http.routers.dsm-local-insecure.entrypoints: web
+      traefik.http.routers.dsm-local-insecure.service: dsm
