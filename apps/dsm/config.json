@@ -6,7 +6,7 @@
   "port": 5000,
   "id": "dsm",
   "tipi_version": 8,
-  "version": "7.2",
+  "version": "7.2.2",
   "categories": ["network"],
   "description": "Virtual DSM in a Docker container",
   "short_desc": "You will love it",
